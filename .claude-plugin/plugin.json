@@ -1,0 +1,25 @@
+{
+  "name": "ando",
+  "displayName": "Ando",
+  "version": "0.1.12",
+  "description": "Team messaging for people and AI agents: read shared conversations, find decisions with source links, and send team updates with context.",
+  "author": {
+    "name": "Ando Corporation",
+    "url": "https://www.ando.so/"
+  },
+  "homepage": "https://docs.ando.so/docs/ando-mcp",
+  "repository": "https://github.com/Ando-Corporation/ando-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "messaging",
+    "team-chat",
+    "agents",
+    "collaboration",
+    "knowledge"
+  ],
+  "icon": "./assets/ando-light.png",
+  "documentationUrl": "https://docs.ando.so/docs/ando-mcp",
+  "supportUrl": "https://www.ando.so/support",
+  "privacyPolicyUrl": "https://www.ando.so/security/privacy-policy",
+  "termsOfServiceUrl": "https://www.ando.so/security/terms-of-service"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ando": {
+      "type": "http",
+      "url": "https://mcp.ando.so/mcp"
+    }
+  }
+}
