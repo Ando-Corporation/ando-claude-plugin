@@ -38,8 +38,9 @@ Hosts may intentionally filter or defer tools. A missing advertised tool alone d
 ## Diagnose versions and missing tools
 
 The plugin package version, catalog version and deployed MCP revision are separate.
-When the overview offers them, report `server_revision`, `catalog_fingerprint`,
-`supported_modes` and unavailable-capability reasons. A null revision is unknown.
+Read the overview with `include_capabilities: true`, and when it offers them,
+report `server_revision`, `catalog_fingerprint`, `supported_modes` and
+unavailable-capability reasons. A null revision is unknown.
 The overview describes the server-authorized catalog; compare it with this host's
 actual full tool declarations before claiming that a tool is callable. A plugin
 update does not change the author, grant capabilities or deploy the server.
