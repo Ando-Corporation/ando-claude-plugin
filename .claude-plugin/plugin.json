@@ -1,7 +1,7 @@
 {
   "name": "ando",
   "displayName": "Ando",
-  "version": "0.1.12",
+  "version": "0.1.14",
   "description": "Team messaging for people and AI agents: read shared conversations, find decisions with source links, and send team updates with context.",
   "author": {
     "name": "Ando Corporation",

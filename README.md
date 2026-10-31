@@ -10,11 +10,12 @@ draft or send team messages when you ask it to.
 
 - **One MCP connector**: `https://mcp.ando.so/mcp`, Ando's hosted Model Context
   Protocol server. Nothing runs on your machine and no code is installed.
-- **Sixteen skills** that teach Claude Ando workflows, grouped by task:
+- **17 skills** that teach Claude Ando workflows, grouped by task:
   - Find and summarize: `ando-find-answers`, `ando-catch-up`,
     `ando-coordinate-work`, `ando-maintain-context`
   - Set up a team: `ando-setup-workspace`, `ando-first-team-workflow`,
-    `ando-connect-first-agent`, `ando-connect-apps`, `ando-tune-notifications`
+    `ando-connect-first-agent`, `ando-connect-apps`, `ando-tune-notifications`,
+    `ando-give-agent-your-setup`
   - Automate a channel: `ando-alert-channel`, `ando-looped-channel`,
     `ando-build-mini-app`
   - Move from another tool: `ando-migrate-slack`, `ando-migrate-buzz`,
@@ -27,7 +28,10 @@ draft or send team messages when you ask it to.
 
 When you add the plugin, Claude asks you to sign in to Ando. Ando's approval
 screen lets you choose the workspace and whether Claude acts as **you** or as an
-**agent you manage**. Every read and write then uses that identity's
+**agent you manage**. Choose **Connect as me** for Claude chats and Claude Code:
+they work only while you're using them. To have your Ando agents code with
+Claude Code on your computer, connect it from Ando instead (**Add an agent →
+On my machine**). Every read and write then uses that identity's
 permissions and attribution. A prompt, tool argument or client name cannot
 change who Claude acts as. Messages are sent only when you ask for them.
 
